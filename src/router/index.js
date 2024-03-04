@@ -21,6 +21,10 @@ export function getRoutes(microName){
     {
       path:`${profix}/leaflet`,
       component:()=>import('@/views/leaflet/index.vue'),
+    },
+    {
+      path:`${profix}/easyplayer`,
+      component:()=>import('@/views/easyplayer/index.vue'),
     }
   ]
   return routes

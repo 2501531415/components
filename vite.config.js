@@ -6,7 +6,13 @@ const { name } = require('./package');
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue(),qiankun(name,{useDevMode:true})],
+  plugins: [vue({
+    template:{
+      compilerOptions:{
+        isCustomElement:tag=>tag == 'easy-player'
+      }
+    }
+  }),qiankun(name,{useDevMode:true})],
   server: {
     port:8882
   },

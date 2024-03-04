@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@easydarwin/easyplayer": "^5.1.1",
     "cropperjs": "^1.6.0",
     "highlight.js": "^11.8.0",
     "leaflet": "^1.9.4",
@@ -17,6 +18,7 @@
     "showdown": "^2.1.0",
     "tinymce": "5.10.2",
     "vditor": "^3.9.5",
+    "video.js": "^8.10.0",
     "vite-plugin-qiankun": "^1.0.15",
     "vue": "^3.3.4",
     "vue-router": "^4.2.4"
