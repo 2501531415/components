@@ -17,6 +17,10 @@ export function getRoutes(microName){
     {
       path:`${profix}/cropper`,
       component:()=>import('@/views/cropper/index.vue'),
+    },
+    {
+      path:`${profix}/leaflet`,
+      component:()=>import('@/views/leaflet/index.vue'),
     }
   ]
   return routes
