@@ -40,6 +40,7 @@ if (!qiankunWindow.__POWERED_BY_QIANKUN__) {
 
 renderWithQiankun({
   mount(props) {
+    console.log(props)
     render(props)
   },
   bootstrap() {
